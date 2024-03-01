@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-sampling_frequency = 44100 #Change the sampling frequency accordingly
+sampling_frequency = 44100 #Don't change the sampling frequency unless needed
 
 sampling_period = 1/sampling_frequency
 t=np.arange(-1.,1.,sampling_period)
